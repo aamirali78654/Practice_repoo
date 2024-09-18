@@ -1,5 +1,7 @@
 [versions]
 agp = "8.5.0"
+appcompatV7 = "28.0.0"
+appcompatVersion = "1.3.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -9,6 +11,8 @@ activity = "1.9.2"
 constraintlayout = "2.1.4"
 
 [libraries]
+appcompat-v131 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+appcompat-v7 = { module = "com.android.support:appcompat-v7", version.ref = "appcompatV7" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
